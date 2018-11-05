@@ -8,7 +8,7 @@ class DotsIndicator extends StatelessWidget {
   static const ShapeBorder kDefaultShape = const CircleBorder();
 
   final int numberOfDot;
-  final int position;
+  int position;
   final Color dotColor;
   final Color dotActiveColor;
   final Size dotSize;
